@@ -1,0 +1,7 @@
+New user Authenticated!
+Username: siddarthan
+Password: sidd123
+URL: /api/checkLoggerData/siddarthan/sidd123
+Date: 10/7/2024, 5:29:05 pm
+Method Type: POST
+
