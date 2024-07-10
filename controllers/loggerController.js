@@ -5,10 +5,10 @@ const checkLoggerData = (request, response) => {
     loggerData.map( iterator => {
         if(iterator.uname === request.params.uname && iterator.upwd === request.params.upwd)
         {
-            return response.status(200).json({message: "Authenticated Successfully"});
+            return response.status(200).json({message: "Authentication Successfull"});
         }
         else{
-            return response.status(404).json({message: "Authentication failed"})
+            return response.status(404).json({message: "Authentication Failed"})
         }
     })
 }
